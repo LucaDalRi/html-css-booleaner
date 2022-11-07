@@ -49,25 +49,20 @@ h1{
     color: #5f91ff;
 }
 
-.evidenziato{
-    text-decoration: ;
+#immagine-finale1{
+    background-image: url("../img/monitor.jpg");
+    width: 312px;
+    height: 208px;
 }
-.div-immagine {
-    height: 400px;
-    width: 400px;
-    position: relative;
-  }
-  .immagini-finali {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
-  .testo-sovrapposto {
-    z-index: 100;
-    position: absolute;
+
+#immagine-finale2{
+    background-image: url("../img/graph.jpg");
+    width: 311px;
+    height: 207px;
+    margin-top: 15px;
+}
+
+#testo-sovrapposto{
     color: white;
-    font-size: 24px;
-    font-weight: bold;
-    left: 150px;
-    top: 350px;
-  }
+    font-size: 30px;
+}

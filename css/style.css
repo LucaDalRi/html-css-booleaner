@@ -2,7 +2,8 @@ header{
     background-image: url('../img/pattern.png');
     background-color: #5f91ff;
 }
-
+main{
+    margin: 0 300px 0 300px;    
 }
 h1{
     font-size: 70px;

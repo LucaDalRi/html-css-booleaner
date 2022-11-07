@@ -1,8 +1,11 @@
-
-
 header{
     background-image: url('../img/pattern.png');
     background-color: #5f91ff;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+
 }
 
 #Logo{
@@ -11,7 +14,8 @@ header{
 }
 
 .gray-text{
-    color: rgb(55, 61, 66);
+    color: rgb(147, 163, 179);
+    font-size: 20px;
 }
 
 #lista{
@@ -21,7 +25,7 @@ header{
 .tabella{
     width: 100%;
     text-align: left;
-    
+    border-spacing: 0px;
 }
 
 #thead{
@@ -29,7 +33,7 @@ header{
     text-align: left;
     background-color: #5f91ff;
     color: white;
-
+    
 }
 
 .td-background{
@@ -40,3 +44,30 @@ header{
     width: 900px;
     text-align: justify;
 }
+
+#testo-blu{
+    color: #5f91ff;
+}
+
+.evidenziato{
+    text-decoration: ;
+}
+.div-immagine {
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+  .immagini-finali {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .testo-sovrapposto {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+  }

@@ -1,3 +1,5 @@
+
+
 header{
     background-image: url('../img/pattern.png');
     background-color: #5f91ff;
@@ -6,5 +8,35 @@ header{
 #Logo{
     width: 250px;
     height: 170px;
+}
+
+.gray-text{
+    color: rgb(55, 61, 66);
+}
+
+#lista{
+    padding-left: 15px;
+}
+
+.tabella{
+    width: 100%;
+    text-align: left;
     
+}
+
+#thead{
+    padding: 0px;
+    text-align: left;
+    background-color: #5f91ff;
+    color: white;
+
+}
+
+.td-background{
+    background-color: aqua;
+}
+
+.td-lungo{
+    width: 900px;
+    text-align: justify;
 }
